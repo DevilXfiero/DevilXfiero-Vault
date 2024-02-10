@@ -32,5 +32,4 @@ Feels energetic  | Too hyper sometimes
 # Callouts 
 
 > [!Info]
-> Inside callout block
 
