@@ -29,6 +29,10 @@ const circle = {
 
 circle.color = 'yellow';
 circle.draw = function() {};
+circle.location = { x: 1};
+
+const propertyName = 'location'; 
+circle[propertyName] = { x: 1}; // we can use this notation when property stored inside variable and we don't know which property to access.
 console.log(circle);
 delete circle.color;
 delete circle.draw;

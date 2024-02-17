@@ -26,13 +26,169 @@
               "type": "markdown",
               "state": {
                 "file": "JS/JavaScript Basics.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dea8987bdb600332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/JavaScript Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dfd578ae5d61c37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/OOPS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "000e52b6b570a39a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JS/OOPS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7f594f27f919275b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/Typescript Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "578ce93aa22b113b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Typescript/Typescript Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "10d29b3266488186",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "88ff18937b329572",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8887baf4ee7de2f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React Components.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "87d568307ad8745a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React Components.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e5b7576c8903f02d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc7d2ee256e39d0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b87a2e7cae073bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Forms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1078dd817b2d1761",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Expense Form Project.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -61,7 +217,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#StoryTelliing  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +254,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JS/JavaScript Basics.md",
+                "file": "Expense Form Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +271,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JS/JavaScript Basics.md",
+                "file": "Expense Form Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +294,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JS/JavaScript Basics.md"
+                "file": "Expense Form Project.md"
               }
             }
           }
@@ -159,15 +315,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "33d7d90798b4c2b6",
+  "active": "1078dd817b2d1761",
   "lastOpenFiles": [
-    "JS/Objects.md",
+    "React/Forms.md",
+    "Expense Form Project.md",
+    "React/Building Components.md",
+    "React/React Components.md",
+    "React/React.md",
+    "React/Managing Components.md",
+    "React/Styling Components.md",
+    "JS/Modules.md",
     "JS/JavaScript Basics.md",
     "Daily Notes/Obsidian Basics.md",
-    "Daily Notes/Obsidian.md",
     "JS/Arrays.md",
-    "Java DSA/Arrays.md",
+    "Typescript/Typescript Basics.md",
+    "React",
+    "2024-02-16.md",
+    "Typescript/Fundamentals.md",
+    "JS/Objects.md",
+    "JS/Classes.md",
+    "JS/OOPS.md",
+    "Daily Notes/Obsidian.md",
+    "Typescript",
+    "JS/Prototypical Inheritance.md",
+    "JS/Functions.md",
     "Java DSA/Java.md",
+    "2024-02-11.md",
+    "Java DSA/Arrays.md",
     "JS",
     "Java DSA/attachments/Screenshot 2024-02-10 at 10.21.25 PM.png",
     "Java DSA/attachments",
@@ -176,7 +350,6 @@
     "Java DSA",
     "www.google.com.md",
     "create a link.md",
-    "Welcome.md",
     "Daily Notes"
   ]
 }
