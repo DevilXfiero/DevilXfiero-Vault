@@ -81,5 +81,3 @@ Transpiler(Translator + Compiler) ->  convert modern JS code to code all browser
 
 Bundler -> combine all JS file to single JS file called bundle. e.g Webpack
 
-
-

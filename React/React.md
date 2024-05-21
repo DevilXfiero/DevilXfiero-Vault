@@ -30,3 +30,22 @@ Updating DOM is done by companion library called **react-dom**.
 
 
 # [[Forms]]
+# [[Connecting to Backend]]
+
+# Intermediate Topics
+
+# [[ React Query]]
+# [[Global State Management]]
+
+# [[Routing]]
+
+
+## Cross-Origin Resource Sharing (CORS)
+
+
+Both backend and frontend running on same host i.e localhost but the ports are different.
+
+We've to tell backend to allow request from different origin.
+
+
+

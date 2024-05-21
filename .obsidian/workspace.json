@@ -4,18 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "4d3e85570862d10c",
+        "id": "9706c3fdcde54ab3",
         "type": "tabs",
         "children": [
           {
-            "id": "9194a630cfeef1ca",
+            "id": "415376105447d3f6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Java/Java Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd2a33567125d5b0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SpringBoot/SpringBoot Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b7eefeed8fd56fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/React Components.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4f2497f7485d9da3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2024-05-13.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ca217bab831efc5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Java/Concurrency and Multithreading.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7b1a4d8a280206e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React/Expense Form Project.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -44,7 +109,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "boots",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "b8f13dc317b73579",
@@ -81,6 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Java/Concurrency and Multithreading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Java/Concurrency and Multithreading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +185,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Java/Concurrency and Multithreading.md"
+              }
             }
           }
         ]
@@ -138,41 +207,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9194a630cfeef1ca",
+  "active": "a300f08853bb4ae7",
   "lastOpenFiles": [
-    "JS/OOPS.md",
-    "JS/JavaScript Basics.md",
-    "Java DSA/Arrays.md",
-    "Typescript/Typescript Basics.md",
-    "React/React.md",
-    "React/React Components.md",
-    "React/Forms.md",
+    "CSharp/Untitled.md",
+    "Java/Java Basics.md",
+    "Java/Concurrency and Multithreading.md",
+    "2024-05-13.md",
+    "CSharp",
+    "React/React Query.md",
     "React/Expense Form Project.md",
+    "Java/Exceptions.md",
+    "Java/Java Advanced.md",
+    "2024-05-05.md",
+    "React/Global State Management.md",
+    "SpringBoot/SpringBoot Basics.md",
     "React/Building Components.md",
-    "React/Managing Components.md",
     "React/Styling Components.md",
-    "JS/Modules.md",
-    "Daily Notes/Obsidian Basics.md",
-    "JS/Arrays.md",
+    "React/Connecting to Backend.md",
+    "React/Forms.md",
+    "React/React Components.md",
+    "React/React.md",
+    "2024-04-23.md",
+    "Spring Boot Testing.md",
+    "Screenshot 2024-04-19 at 12.15.01 PM.png",
+    "Screenshot 2024-04-18 at 3.47.54 PM.png",
+    "Screenshot 2024-04-18 at 3.38.32 PM.png",
+    "Screenshot 2024-04-18 at 9.26.12 AM (2).png",
+    "SpringBoot",
+    "Java/Generics.md",
+    "Java/Java Collections.md",
+    "2024-04-17.md",
+    "Java/Java Classes And Objects.md",
+    "Java/Java Intermediate.md",
+    "0_M7YuoDdy3b8EhBr6.png",
+    "2024-04-15.md",
+    "2024-04-16.md",
+    "Screenshot 2024-04-15 at 11.05.15 PM.png",
+    "Screenshot 2024-04-15 at 11.03.19 PM 1.png",
+    "Screenshot 2024-04-15 at 11.03.19 PM.png",
+    "Untitled",
+    "System Design",
+    "Node",
+    "SQL",
+    "Java",
     "React",
-    "2024-02-16.md",
-    "Typescript/Fundamentals.md",
-    "JS/Objects.md",
-    "JS/Classes.md",
-    "Daily Notes/Obsidian.md",
     "Typescript",
-    "JS/Prototypical Inheritance.md",
-    "JS/Functions.md",
-    "Java DSA/Java.md",
-    "2024-02-11.md",
     "JS",
     "Java DSA/attachments/Screenshot 2024-02-10 at 10.21.25 PM.png",
-    "Java DSA/attachments",
-    "Java DSA/attachments/Screenshot 2024-02-10 at 10.21.41 PM.png",
-    "Java DSA/Custom Array.md",
-    "Java DSA",
-    "www.google.com.md",
-    "create a link.md",
-    "Daily Notes"
+    "Java DSA/attachments/Screenshot 2024-02-10 at 10.21.41 PM.png"
   ]
 }
