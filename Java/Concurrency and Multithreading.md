@@ -318,3 +318,15 @@ Collection<Integer> collection = Collections.synchronizedCollection(new ArrayLis
 Map<Integer, String> map = new ConcurrentHashMap<>();
 ```
 
+
+## _ExecutorService_[](https://www.baeldung.com/java-executorservice-vs-completablefuture#overview-of-executorservice)
+
+The _ExecutorService_ is a powerful interface in Java’s _java.util.concurrent_ package that simplifies managing tasks that need to run concurrently. **It abstracts away the complexities of thread creation, management, and scheduling, allowing us to focus on the actual work that needs to be done.**
+
+_ExecutorService_ provides methods like _submit()_ and _execute()_ to submit tasks we want to run concurrently. These tasks are then queued and assigned to available threads within the [thread pool](https://www.baeldung.com/thread-pool-java-and-guava). If the task returns results, we can use _Future_ objects to retrieve them. **However, retrieving results using methods like _get()_ on a _Future_ can block the calling thread until the task is completed.**
+
+## CompletableFuture_[](https://www.baeldung.com/java-executorservice-vs-completablefuture#overview-of-completablefuture)
+
+The _CompletableFuture_ was introduced in Java 8. **It focuses on composing asynchronous operations and handling their eventual results in a more declarative way.** A _CompletableFuture_ acts as a container that holds the eventual result of an asynchronous operation. It might not have a result immediately, but it provides methods to define what to do when the result becomes available.
+
+Unlike _ExecutorService,_ where retrieving results can block the thread, **_CompletableFuture_ operates in a non-blocking manner**.

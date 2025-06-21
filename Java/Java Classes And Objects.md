@@ -93,7 +93,7 @@ Java Bean - class that has to obey 3 contracts so that other frameworks can do c
 ## Static Keyword
 
 Either a property or method belongs to class itself rather than the instance.
-
+ 
 ## When to use static ?
 
 

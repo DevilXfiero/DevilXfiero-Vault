@@ -6,14 +6,6 @@ What is a Stream?
 - Focuses on the all instead of parts
 - Imperative to functional Programming
 - Used with Collections
-
-
-
-
-
-
-
-
 # [[Exceptions]]
 # [[Generics]]
 

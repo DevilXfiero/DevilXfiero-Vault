@@ -6,6 +6,17 @@ Why compiled and interpreted both?
 
 source code -> compiled -> bytecode -> interpreted -> JVM (executes the source code)
 
+bytecode can run on any machine not dependent on OS  (Platform Independent)
+Compile time checking for errors 
+
+JVM 
+1. class loader ( Scan (classpath)) Initializingm Linking
+2. bytecode verifier
+3. Each thread has its own **JVM Stack** 
+4. Method area 
+5. Each thread has its own PC Register to maintain address of executable.
+6. JIT Compiler ( Just in time ) 
+ 
 
 Static vs Dynamic Type checking
 
@@ -58,8 +69,19 @@ System.out.println(" a ".trim());
 - Space is used to store objects and JRE classes at runtime.
 - New objects are always created in heap space.
 - References to these objects are stored in stack memory.
+stored in RAM only , but sharable resource between every threads
 
+In heap we need to free memory while deleting objects.  **Garbage collection**
 
+public static void main (String[] args) 
+
+What is args ? 
+reference to the List string arguments you pass while running this java code
+
+```
+javac Test.java // compile to bytecode java.class
+java Test 12 34 // 12 34 are the args pass
+```
 
 ## Java is always Pass by value
 
@@ -445,6 +467,77 @@ throw new IllegalStateException(e);
 }
 ```
 
+
+### TypeReference
+
+```java
+userList = objectMapper.readValue(users, new TypeReference<List<User>>() {}); // to resolve generic type(User) in List before deserializing it from json to User object
+```
+
+## Java Functions
+
+Functions are first class citizen that means functions can be passed as parameters and arguments and they can be used.
+
+Functional Interface
+
+A ****functional interface in Java**** is an interface that contains only one abstract method. Functional interfaces can have multiple ****default**** or ****static**** methods, but ****only one abstract method****. [****Runnable****](https://www.geeksforgeeks.org/runnable-interface-in-java/), [****ActionListener****](https://www.geeksforgeeks.org/java-actionlistener-in-awt/)****,**** and [****Comparator****](https://www.geeksforgeeks.org/comparator-interface-java/) are common examples of ****Java**** ****functional interfaces****.
+
+****Functional Interface is additionally recognized as**** ****Single Abstract Method Interfaces****. In short, they are also known as ****SAM interfaces****.
+
+****Java SE 8 included four main kinds of functional interfaces**** which can be applied in multiple situations as mentioned below:
+
+1. ****Consumer****
+2. ****Predicate****
+3. ****Function**** 
+4. ****Supplier****
+
+
+# EventLoop vs Thread Pool
+
+## Event Loop
+
+## Overview:
+
+- _Event Loop_: An event loop is a programming construct that waits for and dispatches events or messages in a program. It is central to the concurrency model of event-driven frameworks like Vert.x.
+- _Single-Threaded_: The event loop typically runs on a single thread. This thread continuously checks for new events and processes them one at a time.
+- _Non-Blocking I/O_: Operations that would block the thread (like I/O) are handled asynchronously. Callbacks, promises, or reactive streams are used to handle the results of these operations.
+
+## How It Works:
+
+1. _Event Queue_: Events (e.g., incoming network requests, I/O completions) are placed in an event queue.
+2. _Event Loop_: The event loop continuously retrieves and processes events from the queue.
+3. _Callbacks_: Each event has an associated callback function that gets executed. If an event involves a long-running or blocking operation, the operation is initiated, and the callback is registered to handle the completion of the operation asynchronously.
+4. _Continuation_: Once the operation completes, the callback is invoked, allowing the application to continue processing.
+
+# Multithread Architecture
+
+## Overview:
+
+- _Multi-Threading_: Multiple threads are used to handle concurrent tasks. Each thread can execute independently, allowing multiple operations to be processed in parallel.
+- _Blocking I/O_: Traditional multi-threaded applications often use blocking I/O, where each thread waits for I/O operations to complete.
+
+## How It Works:
+
+1. _Thread Pool:_ A pool of threads is created at application startup. Each thread can handle a separate task or request.
+2. _Task Queue_: Incoming tasks (e.g., web requests) are placed in a queue and dispatched to available threads in the pool.
+3. _Synchronization_: Threads may need to access shared resources, requiring synchronization mechanisms (e.g., locks, semaphores) to ensure data consistency.
+4. _Blocking Operations_: Threads can perform blocking operations since each thread operates independently. If one thread blocks, others can continue processing.
+
+## Proxy Pattern
+
+**Proxy** is one of the structural patterns in Gang of Four (GoF), that provides a substitute or placeholder for another object to control access. The proxy pattern allows you to perform some logic either before or after invoking the original object.
+
+On adding @_Cacheable_ annotation, spring creates a new caching proxy class. This class will be in charge of adding Caching behavior and will be used for dependency injection.
+
+## 1. What is a Dynamic Proxy?
+
+A dynamic proxy in Java is an object that implements one or more interfaces and delegates method calls to an underlying object or performs additional operations. Unlike static proxies, which are created at compile-time, dynamic proxies are generated at runtime.
+
+In Spring, dynamic proxies are primarily used in two ways:  
+  
+**JDK Dynamic Proxies** : These proxies are created using the java.lang.reflect.Proxy class and can only proxy interfaces.  
+  
+**CGLIB Proxies** : These proxies are created using the CGLIB library and can proxy classes without requiring an interface.
 # [[Java Classes And Objects]]
 
 # [[ Java Intermediate]]
