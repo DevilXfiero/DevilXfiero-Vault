@@ -41,12 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-06-21.md",
+                "file": "Python/Python Web Framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-06-21"
+              "title": "Python Web Framework"
+            }
+          },
+          {
+            "id": "5822a6780b9f4302",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Design/System Design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "System Design"
+            }
+          },
+          {
+            "id": "7af5010ddda32592",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-08-23.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-23"
             }
           },
           {
@@ -64,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -137,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "System Design/Introduction to the Design Patterns.md",
+                "file": "System Design/Design Patterns/Behavioural Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +175,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Introduction to the Design Patterns"
+              "title": "Backlinks for Behavioural Design Patterns"
             }
           },
           {
@@ -206,37 +234,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e0e36dc004525293",
+  "active": "7af5010ddda32592",
   "lastOpenFiles": [
+    "2025-08-05.md",
+    "2025-08-23.md",
+    "System Design/Design Patterns/Behavioural Design Patterns.md",
+    "System Design/Udemy-Shreyansh/Design Patterns.md",
+    "System Design/Udemy-Shreyansh/System Design.md",
+    "System Design/Introduction to SOLID Design Principles.md",
+    "System Design/Introduction to the Design Patterns.md",
+    "System Design/Object-oriented Analysis and Design (OOAD).md",
+    "System Design/System Design.md",
+    "System Design/Design Patterns/Structural Design Patterns.md",
+    "System Design/Design Patterns/Creational Design Patterns.md",
+    "2025-08-02.md",
+    "Vim Keymaps.md",
+    "2025-07-13.md",
+    "System Design/Design Patterns",
+    "2025-07-05.md",
+    "Python/Python Web Framework.md",
+    "2025-07-03.md",
+    "2025-07-01.md",
+    "Python/Python Intermediate.md",
+    "Python/Python Basics.md",
+    "2025-06-28.md",
+    "Python",
     "2025-06-21.md",
     "2025-03-02.md",
     "2025-04-19.md",
     "Pasted image 20241005193407.png",
     "Pasted image 20241005194015.png",
     "Pasted image 20241005220137.png",
-    "System Design/Introduction to SOLID Design Principles.md",
     "HeadFirst_ObjectOrientedAnalysisAndDesign/Notes.md",
     "Java/Java Basics.md",
-    "SpringBoot/SpringBoot Basics.md",
-    "Java/Java Classes And Objects.md",
-    "Effective Java Notes/Effective Java.md",
-    "Java/Concurrency and Multithreading.md",
-    "SpringBoot/React/Building Components.md",
-    "SpringBoot/React/React Components.md",
-    "SpringBoot/React/React.md",
-    "SpringBoot/React/Styling Components.md",
-    "SpringBoot/React/Routing.md",
-    "SpringBoot/React/React Query.md",
-    "Java/Java Collections.md",
-    "Java/Generics.md",
-    "Java/Java Advanced.md",
-    "Java/Java Intermediate.md",
-    "2025-05-10.md",
-    "System Design/Udemy-Shreyansh/System Design.md",
-    "System Design/Udemy-Shreyansh/Design Patterns.md",
-    "Java/Exceptions.md",
-    "2025-03-13.md",
-    "Daily Notes/Obsidian.md",
     "Effective Java Notes",
     "System Design/Udemy-Shreyansh",
     "HeadFirst_ObjectOrientedAnalysisAndDesign",
@@ -251,8 +281,6 @@
     "CSharp",
     "SpringBoot",
     "Untitled",
-    "System Design",
-    "Node",
-    "SQL"
+    "System Design"
   ]
 }
