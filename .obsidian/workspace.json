@@ -4,95 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "31f37b98c9e736dd",
+        "id": "f169b59dab5f3e9a",
         "type": "tabs",
         "children": [
           {
-            "id": "d65ba3df635141a2",
+            "id": "2ec41b0257007647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Effective Java Notes/Effective Java.md",
+                "file": "System Design/Design Patterns/Structural Design Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Effective Java"
+              "title": "Structural Design Patterns"
             }
           },
           {
-            "id": "820c57d8c7f31761",
+            "id": "67631ed5a864d5f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-02-28.md",
+                "file": "System Design/Design Patterns/Behavioural Design Patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-28"
-            }
-          },
-          {
-            "id": "e0e36dc004525293",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Python/Python Web Framework.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Python Web Framework"
-            }
-          },
-          {
-            "id": "5822a6780b9f4302",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Design/System Design.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "System Design"
-            }
-          },
-          {
-            "id": "7af5010ddda32592",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-08-23.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-23"
-            }
-          },
-          {
-            "id": "5ef66d1dbca975d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Java/Java Classes And Objects.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Java Classes And Objects"
+              "title": "Behavioural Design Patterns"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bean",
+                "query": "Adapter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -226,6 +170,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -234,53 +179,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7af5010ddda32592",
+  "active": "67631ed5a864d5f2",
   "lastOpenFiles": [
-    "2025-08-05.md",
-    "2025-08-23.md",
-    "System Design/Design Patterns/Behavioural Design Patterns.md",
-    "System Design/Udemy-Shreyansh/Design Patterns.md",
-    "System Design/Udemy-Shreyansh/System Design.md",
-    "System Design/Introduction to SOLID Design Principles.md",
-    "System Design/Introduction to the Design Patterns.md",
-    "System Design/Object-oriented Analysis and Design (OOAD).md",
-    "System Design/System Design.md",
+    "Untitled.md",
     "System Design/Design Patterns/Structural Design Patterns.md",
+    "System Design/Design Patterns/Behavioural Design Patterns.md",
     "System Design/Design Patterns/Creational Design Patterns.md",
-    "2025-08-02.md",
-    "Vim Keymaps.md",
-    "2025-07-13.md",
+    "Devops/Docker.md",
+    "2026-02-02.md",
+    "System Design/DDIA/CH-3 Storage and Retrieval.md",
+    "2025-11-23.md",
+    "SDE-2/HLD.md",
+    "SDE-2/Problem Statement.md",
+    "SDE-2/Mindset.md",
+    "SDE-2/HLD Workflow.md",
+    "SDE-2/Common Design Examples.md",
+    "2025-12-26.md",
+    "System Design/Problems/Splitwise.md",
+    "System Design/System Design.md",
+    "System Design/Problems",
+    "System Design/Object-oriented Analysis and Design (OOAD).md",
+    "System Design/Introduction to the Design Patterns.md",
+    "System Design/Introduction to SOLID Design Principles.md",
+    "System Design/Udemy-Shreyansh/System Design.md",
+    "System Design/Udemy-Shreyansh/Design Patterns.md",
+    "SDE-2/Rate Limiter.md",
+    "2025-12-24.md",
+    "2025-12-22.md",
+    "Java/Java Classes And Objects.md",
+    "Java/Java Advanced.md",
+    "SDE-2",
+    "DSA",
+    "Untitled 1.base",
+    "Untitled.base",
+    "0_M7YuoDdy3b8EhBr6.png",
+    "AI/Untitled",
+    "AI",
+    "System Design/DDIA",
+    "Devops",
     "System Design/Design Patterns",
-    "2025-07-05.md",
-    "Python/Python Web Framework.md",
-    "2025-07-03.md",
-    "2025-07-01.md",
-    "Python/Python Intermediate.md",
-    "Python/Python Basics.md",
-    "2025-06-28.md",
-    "Python",
-    "2025-06-21.md",
-    "2025-03-02.md",
-    "2025-04-19.md",
     "Pasted image 20241005193407.png",
     "Pasted image 20241005194015.png",
     "Pasted image 20241005220137.png",
-    "HeadFirst_ObjectOrientedAnalysisAndDesign/Notes.md",
-    "Java/Java Basics.md",
-    "Effective Java Notes",
-    "System Design/Udemy-Shreyansh",
-    "HeadFirst_ObjectOrientedAnalysisAndDesign",
     "Pasted image 20241005231726.png",
     "Pasted image 20241005221542.png",
     "Pasted image 20241005221521.png",
     "Pasted image 20241005221237.png",
     "Pasted image 20241005220938.png",
-    "Pasted image 20241005220206.png",
-    "Pasted image 20241005194338.png",
-    "GameDev",
-    "CSharp",
-    "SpringBoot",
-    "Untitled",
-    "System Design"
+    "Pasted image 20241005220206.png"
   ]
 }

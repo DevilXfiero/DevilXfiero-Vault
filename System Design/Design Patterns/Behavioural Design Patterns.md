@@ -25,9 +25,21 @@ DriveStrategy with method drive()
 Create classes implements DriveStrategy 
 Two type Normal Drive, Special Drive 
 
-Now add object of DriveStrategy inside Vehicle 
-Vehicle HAS-A drive strategy now we can assign required drive method base on strategy for different vehicles.
+### Key idea (MEMORIZE THIS)
 
+> **Encapsulate interchangeable behaviors and select them at runtime.**
+
+eg. PaymentService 
+Translated:
+
+- Each payment method becomes a **strategy**
+- Caller doesn’t know implementation details
+- Behavior is injected, not hardcoded
+    
+
+---
+
+## 
 ##  2. Observer Design Pattern
 
 

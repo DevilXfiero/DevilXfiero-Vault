@@ -36,4 +36,56 @@ Base Pizza  <--------is-a, has - a ------- abstract Topping Decorator
 
 Topping Decorator both Is-a and has-a relationship because it contains Pizza object and itself is a Pizza object after decoration so that we can add more decorator if we want.
 
+### 2. Composite Pattern
+
+Object inside Object
+
+Prefer composition over Inheritance
+Tree like structure 
+
+e.g.
+Company team structure
+Delivery box - Product or another box - Product or smaller box 
+Calculator - Airthmetic Expression 
+
+
+Files System  - File or Directory - (File or subdirectory)
+
+
+```
+Component (operation()) Interface (FileSystem)
+     |
+     -------------------------------------
+     |                                                             |
+Leaf (operation())(File)                 Composite (operation()) ( Directory )(has a FileSystem)      
+
+```
+
+
+
+```
+c:/Users/Download/test.txt
+
+File, Directory 
+File ( fileName)
+Directory (directoryName, List<Object> objectList)
+```
+
+
+## Adapter Pattern 
+
+XML to JSON 
+```
+Client --> <<AdapterInterface>>  ---is-a--> ConcreteAdapter --- has-a ->Adaptee
+                request()                                        ExistingInterface (Adpatee)
+                                               request()
+```
+`
+
+
+
+
+
+
+
 
