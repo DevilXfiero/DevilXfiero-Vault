@@ -71,3 +71,64 @@ close the pane - <prefix> x
 
 tmux ls
 <prefix> s to see the tmux session 
+
+
+VS Code shortcuts
+
+Cmd + Shift + I -> Chat 
+Cmd + J -> Terminal 
+Cmd + . -> quickFix like getters and setters
+
+
+## Vim with VSCode
+
+
+Notes and Useful Vim Commands:
+
+Modes:
+- i: Enter Insert Mode
+- Esc: Return to Normal Mode
+- v: Enter Visual Mode
+- V: Enter Visual Line Mode
+- Ctrl+v: Enter Visual Block Mode
+
+Navigation:
+- h, j, k, l: Move left, down, up, right
+- gg: Go to the beginning of the file
+- G: Go to the end of the file
+- :3: Go to line 3
+- %: Jump to matching braces
+
+Editing:
+- yy: Yank (copy) a line
+- p: Paste below
+- dd: Delete a line
+- u: Undo
+- Ctrl+r: Redo
+- :s/old/new/: Replace 'old' with 'new' in the current line
+- :%s/old/new/g: Replace 'old' with 'new' globally
+
+Visual Mode:
+- v + movement: Select text
+- d: Delete selected text
+- y: Yank (copy) selected text
+
+Macros:
+- q<register>: Start recording a macro
+- q: Stop recording
+- @<register>: Play the macro
+
+Buffers and Tabs:
+- :e <filename>: Open a file in a buffer
+- :ls: List all buffers
+- :bnext / :bn: Go to the next buffer
+- :bprev / :bp: Go to the previous buffer
+- :tabedit <filename>: Open a file in a new tab
+- gt: Go to the next tab
+- gT: Go to the previous tab
+
+Basic Search 
+- /keyword  n->next match N->previous match 
+- ?Keyword - Search backward
+- /keyword\c - Case-sensitive
+- 

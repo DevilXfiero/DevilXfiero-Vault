@@ -82,10 +82,24 @@ Client --> <<AdapterInterface>>  ---is-a--> ConcreteAdapter --- has-a ->Adaptee
 ```
 `
 
+## Facade 
+
+When to use and why ? 
+When we have to hide the system complexity from the client.
 
 
+```
+Client -> Facade(accelrate(), brake()) --> implementation
+Provide functionality and hides logical complexity from client.
+
+```
 
 
+But we should not enforce client to use Facade always over calling system direct. It's a client choice.
+
+## Bridge Design Pattern 
+
+"Bridge pattern decouples abstraction from its implementation so that the two can vary independently"
 
 
 

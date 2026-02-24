@@ -6,6 +6,7 @@
 
 A Docker container image is  a lightweight, standalone, executable package of software that includes everything needed to run an application.
 
+
 Container image - class ( contains config, code)
 Container - running instance of image
 
@@ -88,3 +89,9 @@ Then:
 `docker ps docker logs <container_id>`
 
 Dockerfile defines how a service is built, while docker-compose defines how multiple services are deployed and communicate together. Dockerfile focuses on image creation, docker-compose focuses on runtime orchestration.
+
+
+
+Docker allows us to deploy our applications inside "containers", which are kind of like _very_ lightweight virtual machines. Instead of just shipping an application, we can ship an application _and the environment it runs in_.
+
+## Container 
